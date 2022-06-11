@@ -1,0 +1,7 @@
+
+Milyen adatszerkezet segítségével lehetne a gyakorlati feladatok alatt
+beolvasott meccsek adatait mindig dátum szerint rendezett sorrendben
+tárolni?
+•
+Mit kellene a meccsek adatait tároló osztálynál változtatni, hogy képes
+legyen az adatszerkezettel együttműködni?
