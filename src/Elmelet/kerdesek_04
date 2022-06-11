@@ -5,3 +5,9 @@ tárolni?
 •
 Mit kellene a meccsek adatait tároló osztálynál változtatni, hogy képes
 legyen az adatszerkezettel együttműködni?
+
+
+
+
+
+List helyett Map-et használni

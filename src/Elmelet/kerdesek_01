@@ -4,3 +4,14 @@ Mi a különbség az Exception és a RuntimeException között?
 Hogyan kell őket használni?
 •
 Mire érdemes figyelni a kezelésüknél?
+
+
+- Az exception a runtimeException szülöje
+- a fordító érzékeli a hibalehetőséget, és nem is hajlandó lefordítani a
+programot, ez a hibalehetőség kezeletlen;pl:fájl beolvasásánál
+unchecked exception (ellenőrizetlen hiba)
+- el kell dobni, vagy kezelni kell őket
+- a "throws exception" is a hiba kezelés egy eszköze, de nem a legjobb megoldás
+-elkaphatjuk őket a try-catch-finally-vel is
+- Az a lényeg ennek a hibakezelésnek, hogy a programunk nem áll le és megmondhatjuk a programnak
+   hogy ha hibába fut mi történjen valamint hogy mit írjon ki

@@ -2,3 +2,21 @@
 Hogyan tudunk egy kollekcióból bejárás közben elemeket törölni?
 •
 Mutasd be egy vázlatosan (kóddal) az elemek törlésének a módját.
+
+
+
+
+remove kulcsszóval lehet törölni, valahogy így:
+
+
+ArrayList<Figura> figurák;
+
+int i=0;
+
+while(i<list.size())
+    if(list.get(i).figurák){
+        list.remove(i);
+    }else{
+        i++;
+
+        }

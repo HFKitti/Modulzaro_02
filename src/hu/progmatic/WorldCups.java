@@ -21,6 +21,10 @@ public class WorldCups {
         this.date_to = Integer.parseInt(data[4]);
     }
 
+    public WorldCups(String sor) {
+    }
+
+
     public int getYear() {
         return year;
     }

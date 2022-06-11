@@ -1,2 +1,46 @@
 
 Ismertesd röviden az OOP koncepciókat a Java ban
+
+
+- absztarkció (abstraction)
+    elérhető absztrakt osztályok és interfészek segítésgével
+    csak a funkció látható, belső logika rejtve marad
+    amiket használunk: változók, metodusok, osztályok, objektumok
+
+- enkapszuláció (encapsulation)
+    csak az fér hozzá egy adott dologhoz, aki/ami birtokolja
+    ami logikailag összetartozik, az mind egy egységet képez
+    egy osztály egy logikailag összetartozó egység
+
+- öröklödés (inheratice)
+    egy osztály egy másiktól örököl
+    minden osztálynak csak egy leszármazottja lehet
+    javaban minden isztály Ősatyja az Object osztály
+    a gyerek osztály használhatja a szülö osztály fildjeit, de a szulő osztály már nem
+    konstruktorok sem örökithetőek, csak a fieldek(amennyiben publikusak)
+
+- többalakúság (polymorphism)
+    több metodusnak ugyanaz a neve, mégis mást csinálnak
+    elérhető a az Overloading és az Overriding használatával
+    overloading: a metódusoknak más típusú és/vagy más darabszámú bemeneti paraméterük van
+    overriding: öröklődés esetén használható
+                a Gyerek osztály felülírja a Szülő osztály metódusát
+
+egyéb koncepciók:
+- coupling (csatolás)
+osztályok mennyit látnak egymásból (láthatósági jelzők)
+
+- cohesion (kohézió)
+egy egység (pl. package) egyetlen jól meghatározott feladatot lát el
+
+- association (asszociáció)
+az objektumok közötti kapcsolatot határozza meg (egy objektum milyen viszonyban van egy
+másikkal)
+
+- aggregation (aggregáció)
+az association megvalósítása, amelyben az objektum állapotához tartozik egy másik
+objektum, amely önállóan is létező
+
+- composition (kompozíció)
+az association másik megvalósítása, amelyben az objektum állapotához tartozik egy másik
+objektum, és a tartalmazó objektum nem létezik a “szülő” nélkül
